@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-header{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.logo{
+    width: 30%;
+}
+ul{
+    list-style: none;
+    font-family: 'work sans';
+    font-size: 20px;
+    color: white;
+    
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    display: none;
+}
