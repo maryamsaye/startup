@@ -9,12 +9,12 @@ return (
       <div className="hero">
         <img src={group1} alt="people" className='people'/> 
           <div className="text">
-        <h1 className='welcome'>WELCOME</h1>
-        <p className='text1'>Lorem ipsum dolor sit amet consectetur.</p>
-        <p className='text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi temporibus id accusantium quos odio.</p>
+            <h1 className='welcome'>WELCOME</h1>
+            <p className='text1'>Lorem ipsum dolor sit amet consectetur.</p>
+            <p className='text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi temporibus id accusantium quos odio.</p>
+          </div>
       </div>
-     </div>
-     <button>Explore</button>
+        <button>Explore</button>
     
     </div>
     
