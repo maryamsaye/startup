@@ -1,13 +1,19 @@
 
 import Navbar from './Components/Navbar/Navbar.jsx';  
-import Welcome from './Components/Welcome/Welcome.jsx'; 
+import Home from './Home/home.jsx';
+import Partners from './Home/Partners.jsx'; 
+
+
 
 const App = () => {
   return (
-    <div className='container'>
-      <Navbar />
-      <Welcome />
+  
+    <div>
+    
+      <Home />
       </div>
+    
+      
 
     
   )

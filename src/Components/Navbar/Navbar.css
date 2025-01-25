@@ -2,11 +2,13 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #74c69d;
 }
 .nav-header{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    background-color: #74c69d;
 }
 .logo{
     width: 30%;

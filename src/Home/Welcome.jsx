@@ -1,5 +1,6 @@
 import React from 'react';
-import group1 from '../../assets/group1.svg';
+import group1 from "../assets/group1.svg";
+
 import './Welcome.css';
 
 

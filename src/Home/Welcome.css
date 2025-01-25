@@ -8,10 +8,12 @@
     padding-left: 20px;
     padding-right: 20px;
     height: 514px;
+    background-color: #74c69d;
 }
 .hero{
     display: flex;
     flex-direction: column;
+
 }
 .welcome{
     font-family: "Work Sans";

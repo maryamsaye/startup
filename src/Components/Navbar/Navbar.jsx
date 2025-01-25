@@ -1,7 +1,7 @@
-import './Navbar.css';
-import start from '../../assets/start.svg';
-import hamburger from '../../assets/hamburger.svg';
-import React from 'react';
+import React from "react";
+import "./Navbar.css";
+import start from "../../assets/start.svg";
+import hamburger from "../../assets/hamburger.svg";
 
 const Navbar = () => {
   return (
