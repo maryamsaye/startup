@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar.jsx";
 import Ladies from "./Ladies.jsx";
 import Man from "./Man.jsx";
 import Talents from "./Talents.jsx";
+import Footer from "./Footer.jsx";
 
 
 
@@ -17,6 +18,7 @@ return (
         <Ladies />
         <Man />
         <Talents />
+        <Footer />
     
     </div>
     )

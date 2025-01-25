@@ -11,7 +11,7 @@ return (
         <div className="company">
             <h1 className="team">TEAM</h1>
             <h2 className="talents">OUR TALENTS</h2>
-            <p className="our">lorem8</p>
+            <p className="our">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <img src={ceo} alt="" className="ceo" />
             <img src={cto} alt="" className="cto" />
             <img src={designer} alt="" className="designer" />
