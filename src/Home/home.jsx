@@ -4,6 +4,7 @@ import Partners from "./Partners.jsx";
 import Navbar from "../Components/Navbar/Navbar.jsx";
 import Ladies from "./Ladies.jsx";
 import Man from "./Man.jsx";
+import Talents from "./Talents.jsx";
 
 
 
@@ -15,6 +16,7 @@ return (
         <Partners />
         <Ladies />
         <Man />
+        <Talents />
     
     </div>
     )
