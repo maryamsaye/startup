@@ -1,7 +1,6 @@
 
 import Navbar from './Components/Navbar/Navbar.jsx';  
-import Home from './Home/home.jsx';
-import Partners from './Home/Partners.jsx'; 
+import Home from './Home/home.jsx'; 
 
 
 
