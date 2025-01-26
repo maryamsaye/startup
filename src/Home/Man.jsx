@@ -9,8 +9,8 @@ const Man = () => {
         <div className="man">
             <img src={techman} alt="" className="techman" />
             <p className="mantext">Lorem ipsum dolor sit amet consectetur.</p>
-            <p className="mantext2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quasi cumque quaerat exercitationem, distinctio neque sit dolorum. Eveniet, minus exercitationem!</p>
-            <button className="black">Learn More</button>
+            <p className="mantext2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quasi cumque quaerat exercitationem, distinctio neque sit dolorum. Eveniet, minus exercitationem?</p>
+            <button className="black2">Learn More</button>
     
         </div>
     )

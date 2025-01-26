@@ -9,13 +9,31 @@ import  developer from "../assets/developer.svg";
 const Talents = () => {
 return (
         <div className="company">
-            <h1 className="team">TEAM</h1>
-            <h2 className="talents">OUR TALENTS</h2>
-            <p className="our">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <img src={ceo} alt="" className="ceo" />
-            <img src={cto} alt="" className="cto" />
-            <img src={designer} alt="" className="designer" />
-            <img src={developer} alt="" className="developer" />
+            <div className="teamate">
+                <h1 className="team">TEAM</h1>
+                <h2 className="talents">OUR TALENTS</h2>
+                <p className="our">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div className="frame">
+                <img src={ceo} alt="" className="ceo" />
+                <h1 className="name">Peg Legge</h1>
+                <h2 className="position">CEO</h2>
+            </div>
+            <div className="frame">
+                <img src={cto} alt="" className="cto" />
+                <h1 className="name">Richard Guerra</h1>
+                <h2 className="position">CTO</h2>
+            </div>
+            <div className="frame">
+                <img src={designer} alt="" className="designer" />
+                <h1 className="name">Alexandra Stolz</h1>
+                <h2 className="position">DESIGNER</h2>
+            </div>
+            <div className="frame">
+                <img src={developer} alt="" className="developer" />
+                <h1 className="name">Janet Bray</h1>
+                <h2 className="position">DEVELOPER</h2>
+            </div>
     
         </div>
         )

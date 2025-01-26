@@ -7,7 +7,7 @@ import  pchat from "../assets/pchat.svg";
 import  ticktok from "../assets/ticktok.svg";
 import  watsapp from "../assets/watsapp.svg";
 import  youtube from "../assets/youtube.svg";
-import  copyright from "../assets/copyright.svg";
+import  copyright from "../assets/copyright.png";
 
 
 
