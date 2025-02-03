@@ -7,21 +7,24 @@ import  pchat from "../assets/pchat.svg";
 import  ticktok from "../assets/ticktok.svg";
 import  watsapp from "../assets/watsapp.svg";
 import  youtube from "../assets/youtube.svg";
-import  copyright from "../assets/copyright.png";
 
 
 
 const Footer = () => {
     return (
         <div className="mediaicons">
-            <img src={facebkicon} alt=""  className="facebk" />
-            <img src={insta} alt=""  className="insta" />
-            <img src={tweeter} alt=""  className="tweeter" />
-            <img src={pchat} alt=""  className="pchat" />
-            <img src={ticktok} alt=""  className="tictok" />
-            <img src={watsapp} alt=""  className="watsapp" />
-            <img src={youtube} alt=""  className="youtube" />
-            <img src={copyright} alt=""  className="copyright" />
+                <div className="insta">
+                <img src={facebkicon} alt=""  className="insta" />
+                <img src={insta} alt=""  className="insta" />
+                <img src={tweeter} alt=""  className="insta" />
+                <img src={pchat} alt=""  className="insta" />
+                <img src={ticktok} alt=""  className="insta" />
+                <img src={watsapp} alt=""  className="insta" />
+                <img src={youtube} alt=""  className="insta" />
+            </div>
+            <div className="copy">
+                <p className="copyright">© Start, 2022. All rights reserved.</p>
+            </div>
     
         </div>
         )

@@ -20,20 +20,21 @@ return (
                 <h2 className="position">CEO</h2>
             </div>
             <div className="frame">
-                <img src={cto} alt="" className="cto" />
+                <img src={cto} alt="" className="ceo" />
                 <h1 className="name">Richard Guerra</h1>
                 <h2 className="position">CTO</h2>
             </div>
             <div className="frame">
-                <img src={designer} alt="" className="designer" />
+                <img src={designer} alt="" className="ceo" />
                 <h1 className="name">Alexandra Stolz</h1>
                 <h2 className="position">DESIGNER</h2>
             </div>
             <div className="frame">
-                <img src={developer} alt="" className="developer" />
+                <img src={developer} alt="" className="ceo" />
                 <h1 className="name">Janet Bray</h1>
                 <h2 className="position">DEVELOPER</h2>
             </div>
+            <button className="blacky">Learn more</button>
     
         </div>
         )

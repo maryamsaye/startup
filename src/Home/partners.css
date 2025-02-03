@@ -1,5 +1,5 @@
 .part{
-    width: 335px;
+    /* width: 335px; */
     background-color: #FFFFFF;
     padding-left: 20px;
     padding-right: 20px;
@@ -60,7 +60,6 @@
     width: 170px;
     height: 48px;
     border-radius: 5px;
-    margin-top: 15px;
     color: #FFFFFF;
     margin-top: 80px;
     margin-left: 70px;

@@ -1,3 +1,21 @@
 .mediaicons{
     background-color: #74C69D;
+    height: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.insta{
+    width: 242.52px;
+    height: 18px;
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+
+
+}
+
+.copy{
+    margin-top: 50px;
 }
