@@ -1,5 +1,6 @@
 import React from "react";
-import "./Partners.css";
+import "/src/Home/Partners.css"; // Absolute path
+
 import google from "../assets/google.svg";
 import microsoft from "../assets/microsoft.svg";
 import airbnb from "../assets/airbnb.svg";
