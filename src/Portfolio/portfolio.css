@@ -30,3 +30,16 @@
     color: #000000;
     
 }
+.img{
+    width: 100%;
+    height: auto;
+
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px; 
+    justify-content: center;
+    padding: 10px;
+    margin-top: 40px;
+}
