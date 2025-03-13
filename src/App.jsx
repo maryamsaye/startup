@@ -1,13 +1,24 @@
+import React from 'react'; 
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import Home from './Home/home.jsx'; 
+import Portfolio from "./Portfolio/portfolio.jsx";
 
-import Navbar from './Components/Navbar/Navbar.jsx';  
-import Welcome from './Components/Welcome/Welcome.jsx'; 
 
 const App = () => {
   return (
-    <div className='container'>
-      <Navbar />
-      <Welcome />
+    <BrowserRouter>
+  
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        {/* <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} /> */}
+        
+      </Routes>
       </div>
+      </BrowserRouter>
+      
 
     
   )
